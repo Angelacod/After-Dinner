@@ -1,0 +1,22 @@
+body{
+  background-image: url(https://www.theopensuitcase.com/wp-content/uploads/2018/06/pretty-happy-hour-cocktails.jpg);
+  background-size: cover;
+  filter: blur(0.8px);
+}
+ h1{
+   font-size: 150px;
+   color: white;
+   text-align: center;
+   opacity: 0.9;
+   margin: 60px;
+ }
+
+  /*button*/
+button{
+  transform: translate(420%,-90%);
+  border-radius: 2.5rem;
+  font-size: 1.5rem;
+  padding: 1rem 1.5rem;
+  background-color: #ff6dbb;
+  color: black;
+}
