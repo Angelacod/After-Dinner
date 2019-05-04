@@ -215,17 +215,17 @@ footer{
   border-top: 2.6px solid #dddddd;
   border-bottom: 2.6px solid #dddddd;
   }
-.socialbutton {
-  transition: transform .2s;
-  width: 45px;
-  height: 45px;
-  margin-right: 7px;
-  margin-top: 12px;
-  margin-bottom: 20px;
+  .socialbutton {
+    transition: transform .2s;
+    width: 45px;
+    height: 45px;
+    margin-right: 7px;
+    margin-top: 13px;
+    margin-bottom: 26px;
 
-}
-.socialbutton:hover {
-  transform: scale(1.5);
+  }
+  .socialbutton:hover {
+    transform: scale(1.44);
 }
 .social:hover {
   text-decoration: none !important;}
