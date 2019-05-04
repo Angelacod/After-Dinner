@@ -81,100 +81,38 @@ header {
 	line-height: 10px;
   font-family: 'Quicksand', sans-serif;
 }
+#about-text h5 {
+  font-family: monospace;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
 /* ---- end of title for all pages css -------*/
 
-/*--- button for split pages ---*/
-button{
-  transform: translate(-15%,5%);
-  border-radius: 15px;
-  font-size: 1.5rem;
-  padding: 1rem 1.5rem;
-  background-color:  #ff6dbb;
-  color: black;
-}
-/*--- end of button for split pages ---*/
-
-/* ---- start split for menu pages css -------*/
-.split {
-  height: 100%;
-  width: 50%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  padding-top: 0px;
-  font-family: 'Quicksand', sans-serif;
+/* ---- start of relatedrecipe pages css -------*/
+.relatedrecipe{
+  border-top: 2.6px solid #dddddd;
+  border-bottom: 2.6px solid #dddddd;
 }
 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  t
-}
 
-.centered img {
-  width: 150px;
-  border-radius: 50%;
-}
-/* ---- end of split for menu pages css -------*/
+/* ---- end of relatedrecipe pages css -------*/
 
-/* ---- start: images split for menu pages css -------*/
-.leftdrinkanddessets {
-  transform: translate(0, 10.5%);
-  left: 0;
-  background-image: url('https://i.imgur.com/4BUUjN0.jpg');
-  background-size: cover;
-}
 
-.rightdrinkanddessets {
-  transform: translate(0, 10.5%);
-  right: 0;
-  background-image: url('https://i.imgur.com/LmivECQ.jpg');
-  background-size: cover;
-}
 
-.leftdrinks {
-  transform: translate(0, 10.5%);
-  left: 0;
-  background-image: url('https://i.imgur.com/F6ml0eu.jpg');
-  background-size: cover;
-}
-
-.rightdrinks {
-  transform: translate(0, 10.5%);
-  right: 0;
-  background-image: url('https://i.imgur.com/BCHrqxq.jpg');
-  background-size: cover;
-}
-
-.leftbake {
-  transform: translate(0, 10.5%);
-  left: 0;
-  background-image: url('https://i.imgur.com/Mov7Xod.jpg');
-  background-size: cover;
-}
-
-.rightbake {
-  transform: translate(0, 10.5%);
-  right: 0;
-  background-image: url('https://i.imgur.com/mgvrDPA.jpg');
-  background-size: cover;
-}
-/* ---- end: images split for menu pages css -------*/
-
-/* ----Start: recipe images layout------------------------*/
+/* ----Start: relatedrecipe images layout------------------------*/
 * {
   box-sizing: border-box;
 }
 
+/* ----this is what i use to control how many images i want to see width=23% means 4 images can ft--- */
+
 .column {
   float: left;
-  width: 23%;
+  width: 30%;
   padding: 10px;
-  transform: translate(1%,-6%);
+  transform: translate(30%,-6%); /* ----sideways contronl, updown control ---*/
 }
 
 /* Clearfix (clear floats) */
