@@ -96,7 +96,6 @@ header {
   border-bottom: 2.6px solid #dddddd;
 }
 
-
 /* ---- end of relatedrecipe pages css -------*/
 
 
@@ -112,7 +111,7 @@ header {
   float: left;
   width: 30%;
   padding: 10px;
-  transform: translate(30%,-6%); /* ----sideways contronl, updown control ---*/
+  transform: translate(31%,-6%); /* ----sideways contronl, updown control ---*/
 }
 
 /* Clearfix (clear floats) */
