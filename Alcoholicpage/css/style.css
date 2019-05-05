@@ -199,8 +199,23 @@ padding: 5px 10px 2.5px 8px;
   float: left;
   width: 30%;
   padding: 10px;
-  transform: translate(31%,-6%); /* ----sideways contronl, updown control ---*/
+  transform: translate(31%,-8.5%); /* ----sideways contronl, updown control ---*/
 }
+
+.column2 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  transform: translate(85%,-8.5%); /* ----sideways contronl, updown control ---*/
+}
+
+.column3 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  transform: translate(133%,-8.5%); /* ----sideways contronl, updown control ---*/
+}
+
 
 /* Clearfix (clear floats) */
 .row::after {
