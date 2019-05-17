@@ -2,32 +2,18 @@
 <html>
 
 <body>
-  <ul class="multilevel-dropdown"
-      data-dropdown-name="values"
-      data-dropdown-value="val2">
-
-      <li data-value="val1"><a href="https://www.jqueryscript.net/menu/">Menu</a> 1</li>
-
-      <ul data-label="Group 1">
-          <li data-value="val2">Menu 2</li>
-          <li data-value="val3">Menu 3</li>
-      </ul>
-
-      <li data-value="val4">Menu 4</li>
-
-      <ul data-label="Group 2">
-          <li data-value="val5">Menu 5</li>
-
-          <ul data-label="Group 3">
-              <li data-value="val6">Menu 6</li>
-              <li data-value="val7">Menu 7</li>
-          </ul>
-      </ul>
-
-      <li data-value="val8">Menu 8</li>
-
-  </ul>
-  
+  <div class="footer-newsletter">
+    <label for="footerEmail">Monthly Newsletter</label>
+    <form name="footerNewsletter" class="flex" method="POST">
+      <br>
+      <div class="newsletter-fields flex formControl">
+        <input id="footerEmail" type="email" full-email valid-email placeholder="Enter your email address" name="footerEmail" ng-model="newsletterEmail">
+        <form-error-messages for="footerEmail"></form-error-messages>
+        <button class="btn-cta1" ng-disabled="!footerNewsletter.footerEmail.$valid || !newsletterEmail" ng-click="openNewsletterModal(false)">
+          Subscribe
+        </button>
+    </form>
+  </div>
 </body>
 
 </html>
